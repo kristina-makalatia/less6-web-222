@@ -1,0 +1,66 @@
+/* header styles */
+.container-header {
+  display: flex;
+  align-items: center;
+  border: 2px solid blue;
+}
+.ul-element-navigation {
+  display: flex;
+  width: 564px;
+  background-color: lightblue;
+  justify-content: space-between;
+}
+.header-wraper {
+  padding: 69px 0 69px 162px;
+  background-color: lightcoral;
+}
+.navigation {
+  margin-left: 150px;
+}
+
+.box-el {
+  width: 400px;
+  height: 400px;
+  background-color: lightgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* flex practice */
+.wraper {
+  width: 1336px;
+  margin: 0 auto;
+}
+.box {
+  width: 310px;
+  height: 430px;
+  background-color: lightslategray;
+}
+.row1 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 901px;
+  align-content: space-between;
+}
+.icon {
+  background-color: #f2f4f7;
+  width: 36px;
+  height: 36px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-facebook {
+  color: red;
+  font-size: 30px;
+  margin-right: 25px;
+}
+.instagram {
+  background-color: red;
+  color: #fff;
+  font-size: 30px;
+}
